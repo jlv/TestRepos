@@ -17,6 +17,8 @@
 	pheader($host_team_name . " - Finals Alliance Selection");
 	$connection = dbsetup();
 
+// TEST FILE
+
 	// define lock array, fields arrays
 	$dblock = array(table=>"process_lock",where=>"lock_id = 'finals_selection'");
 	//$table_team = array("name","nickname","org","location","students","website");
